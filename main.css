@@ -1,3 +1,12 @@
-.card-body > .btn-primary{
-    justify-self: flex-end;
+textarea{
+    resize: none;
+    height: 20vh;
+}
+
+.__inputname{
+    width: 45%;
+}
+
+.__formcenter{
+    align-self: center;
 }
