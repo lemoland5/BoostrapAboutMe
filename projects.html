@@ -7,7 +7,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="./main.css"> -->
+    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
@@ -24,10 +24,10 @@
                         <a class="nav-link" href="./index.html">Strona główna</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Kontakt</a>
+                        <a class="nav-link active" aria-current="page" href="./projects.html">Projekty</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./projects.html">Projekty</a>
+                        <a class="nav-link" href="./contact.html">Kontakt</a>
                     </li>
                 </ul>
             </div>
@@ -40,22 +40,187 @@
     </header>
 
     <main class="container-fluid w-50 mt-5">
-        <article class="border p-3 rounded d-flex flex-column align-items-center">
+
+        <article class="border mt-5 mb-5 p-3 rounded d-flex flex-column align-items-center">
+            <h2 class="mb-4" id="raypong">RAYPONG</h2>
+
+            <br>
+
+            <div class="w-100 p-2 d-flex flex-wrap justify-content-around bg-dark-subtle rounded">
+                <img class="w-40 pe-3 mb-2" src="./img/raypong/title.png" alt="Zrzut ekranu z gry RAYPONG">
+                <img class="w-40 pe-3 mb-2" src="./img/raypong/main menu.png" alt="Zrzut ekranu z gry RAYPONG">
+                <img class="w-40 pe-3 mb-2" src="./img/raypong/gameplay.png" alt="Zrzut ekranu z gry RAYPONG">
+                <img class="w-40 pe-3 mb-2" src="./img/raypong/main menu virtualboy.png" alt="Zrzut ekranu z gry RAYPONG">
+                <img class="w-40 pe-3 mb-2" src="./img/raypong/gameplay virtuaboy.png" alt="Zrzut ekranu z gry RAYPONG">
+                <img class="w-40 pe-3 mb-2" src="./img/raypong/gameplay gameboy.png" alt="Zrzut ekranu z gry RAYPONG">
+            </div>
+
+            <a href="https://github.com/lemoland5/RAYPONG" target="_blank" class="mt-4 text-reset">
+                <b class="fab fa-github">GitHub</b>
+            </a>
+
+            <p class="mt-2">
+                <p>
+                    W zeszłym roku po długim czasie pracowania jedynie w JS postanowiłem wrócić do mojego ulubionego języka - C++.
+                </p>
+                <p>
+                Już wcześniej chciałem zabrać się za stworzenie gry. Wyszedłem z założenia, że zanim zacznę pracować w silniku typu Unity czy Godot powinienem potrafić skończyć projekt bez używania silnika. Wybrałem rekreację kultowej gry komputerowej Pong.</p>
+                <p>
+                Gra używa biblioteki graficznej raylib. Grać można w trybie dwuosobowym, jak i w pojedynkę przeciwko komputerowi. Gra posiada system osiągnięć, które odblokowują alternatywne palety kolorów.</p>
+            </p>
+        </article>
+
+        <article class="border mt-5 mb-5 p-3 rounded d-flex flex-column align-items-center">
+            <h2 class="mb-4" id="motorolasciencecup">Motorola Science Cup</h2>
+
+            <br>
+
+            <div class="w-100 p-2 d-flex justify-content-around bg-dark-subtle rounded">
+                <img class="w-50 pe-3 " src="./img/motorola/asteroid_original.png" alt="Zrzut ekranu z gry Asteroids na Atari 2600">
+                <img class="w-50 ps-3 " src="./img/motorola/asteroid.png" alt="Zrzut ekranu z rekreacji gry Asteroids na Atari 2600">
+            </div>
+
+            <a href="https://www.umcs.pl/pl/faces-of-america.htm" target="_blank" class="mt-4 text-reset">
+                <b class="fab">Strona konkursu</b>
+            </a>
+
+            <p class="mt-2">
+                <p>Na początku roku szkolnego, razem z kilkoma kolegami zgłosiliśmy się do konkursu Motorola Science Cup. Konkurs ma na celu "popularyzację Technologii Informatycznych oraz nauk ścisłych" wśród uczniów szkół ponadpodstawowych.</p>
+
+                <p>
+                Konkurs dzieli się na etapy, pierwszym było poprawne napisanie testu wielokrotnego wyboru łączącego dziedziny takie jak matematyka czy fizyka. Odpowiedzieliśmy na pytania poprawnie i dostaliśmy się dalej.
+                </p>
+                <p>
+                Drugi etap polegał na wybraniu jednego z trzech projektów i dostarczenie go w określonym terminie. Spośród podanych wybraliśmy <i>rekreację trzech gier na konsolę Atari 2600 z wykorzystaniem grafiki wektorowej</i>.
+                Zespół pięciu osób podzieliliśmy na dwa oddziały mające zająć się rekreacją poszczególnych gier.</p>
+                <p>
+                Zaszliśmy bardzo daleko, w pełni skończyliśmy odtwarzać gry <i>Tempest</i> i <i>Asteroids</i>, a ostatnia - <i>Battlezone</i> była bliska ukończeniu. Jednak w ostatniej chwili - tuż przed oddaniem prac - okazało się, że biblioteki graficzne takie jak OpenGL, czy użyty przez nas SDL były wbrew regulaminowi.
+                </p>
+                <p>
+                Obecnie jesteśmy tydzień przed oddaniem prac, oddamy to co mamy i damy komisji zadecydować co dalej. Pomimo przykrego ostatecznego losu projektu bardzo dobrze się przy nim bawiliśmy i nauczyliśmy się wiele rzeczy z zakresu tworzenia i projektowania gier komputerowych.</p>
+            </p>
+        </article>
+
+        <article class="border mt-5 mb-5 p-3 rounded d-flex flex-column align-items-center">
+            <h2 class="mb-4" id="facesofamerica">Faces of America</h2>
+
+            <br>
+
+            <div class="w-100 p-2 d-flex justify-content-around bg-dark-subtle rounded">
+                <img class="w-100 border border-black" src="./img/umcs/facesofamerica banner.png" alt="Zrzut ekranu z gry Asteroids na Atari 2600">
+            </div>
+
+            <a href="https://science-cup.pl/" target="_blank" class="mt-4 text-reset">
+                <b class="fab">Strona konkursu</b>
+            </a>
+
+            <p class="mt-2">
+                <p>
+                    Kilka tygodni temu dostałem informację o konkursie organizowanym przez Uniwersytet Marii Curie-Skłodowskiej w Lublinie.
+                </p>
+                <p>
+                    <i>Faces of America</i> to konkurs sprawdzający wiedzę o historii i kulturze Stanów Zjednoczonych oraz ogólnej z języka angielskiego. Interesuję się tematem, więc wraz z dwoma kolegami zapisaliśmy się do konkursu jako zespół.
+                </p>
+                <p>
+                    Konkurs dzieli się na trzy etapy, pierwszym z nich było nakręcenie krótkiego filmu promującego UMCS w formacie TikToka. Nie byliśmy zachwyceni, bo od samego początku wiedzieliśmy jaki będzie efekt końcowy. Nagraliśmy film, w którym omawiamy uczelnię i wszystkie jej zalety; wyszło całkiem sztucznie, jak segment sponsorski na YouTubie. Podejrzewany, że filmy zespołów z innych szkół wyszły podobnie.
+                </p>
+                <p>
+                    Pierwszy etap nie był najprzyjemniejszy, ale mamy nadzieję, że nasz praca się opłaci. Całokształt imprezy zapowiada się bardzo obiecująco, do wygrania są ciekawe nagrody i razem z udziałem wiąże się kilka dni zwiedzania Lublina.
+                </p>
+            </p>
+        </article>
+    
+        <article class="border mt-5 mb-5 p-3 rounded d-flex flex-column align-items-center">
+            <h2 class="mb-4" id="stasiak">Rouletta Italiana</h2>
+            
+            <br>
+
+            <div class="w-100 p-2 d-flex justify-content-around bg-dark-subtle rounded">
+                <iframe src="https://drive.google.com/file/d/1QJ7_UD-F-QTHnPpoPRVw1rU6RGFdeYDR/preview" class="__videoIframe" allow="autoplay"></iframe>
+            </div>
+
+            <a href="https://drive.google.com/drive/u/0/home" target="_blank" class="mt-4 text-reset">
+                <b class="fab">Link do filmu</b>
+            </a>
+
+            <p class="mt-4">
+                <p>
+                    Miesiąc temu w ramach lekcji informatyki dostaliśmy zadanie nagrać film; tematyka dowolna. Jako, że bardzo lubię nagrywać i montować filmy zdecydowałem się nagrać film fabularny.
+                </p>
+                <p>
+                    Od samego początku wiedziałem, że chcę nagrać coś poważniejszego. <i><b>Trafiło</b></i> na rosyjską ruletkę. Pomysłów było wiele, ale finalny scenariusz to dwóch kolegów grających w ruletkę, po szantażu mafii.
+                </p>
+                <p>
+                    Pomysły na kadry, sceny, myzkę przyszły do mnie od razu. Uwielbiam element kreatywny związany z reżyserowaniem filmów. W weekend pojechaliśmy do mojego kolegi Piotra i wszystko nagraliśmy. Montaż (jak zawsze) był bolesny i żmudny ale (jak zawsze) efekt końcowy był w pełni wart tego bólu. Z filmu jestem bardzo dumny.
+                </p>
+
+            </p>
+        </article>
+
+        <article class="border mt-5 mb-5 p-3 rounded d-flex flex-column align-items-center">
+            <h2 class="mb-4" id="calendarjs">Calendar.js</h2>
+
+            <br>
+
+            <div class="w-100 p-2 d-flex justify-content-around bg-dark-subtle rounded">
+                <img class="w-50 pe-3" src="./img/calendar/register.png" alt="Zrzut ekranu logowania aplikacji Calendar.js">
+                <img class="w-50 ps-3" src="./img/calendar/your day logged in.png" alt="Zrzut ekranu głównej strony aplikacji Calendar.js">
+            </div>
+
+            <a href="https://github.com/lemoland5/Calendar-PROTO" target="_blank" class="mt-4 text-reset">
+                <b class="fab fa-github">GitHub</b>
+            </a>
+
+            <p class="mt-4">
+                <p>
+                W zeszłym roku naszedł mnie pomysł na aplikację - kalendarz samopoczucia. Pierwotnie chciałem stworzyć aplikację mobilną, ale jako pierwszy chciałem stworzyć prototyp w przeglądarce (stąd <i>PROTO</i> w nazwie repozytorium). 
+                </p>
+                <p>
+                    Aplikacja posiada możliwość codziennego zalogowania i ocenienia swojego samopoczucia tego danego dnia. Wszystkie dni można zobaczyć w formie kalendarza z widokiem na większą skalę czasu.
+                </p>
+                <p>
+                    Na poziomie technicznym wyzwanie stanowiło stworzenie panelu oceny dnia, które na bazie pozycji kursora przydzielałoby ocenie kolor i łatkę. Nie było to najłatwiejsze, ale po kilku dniach miałem działającą wersję.
+                </p>
+                <p>
+                    O wiele gorszym było stworzenie działającego kalendarza. Przy tworzeniu kalendarza tabelarycznego trzeba zwrócić dużą uwagę na dni tygodnia, zmienną długość miesięcy, lata przestępne i wiele więcej. Problem wydawał się bardzo skomplikowany, więc od razu zacząłem szukać biblioteki pozwalającej na łatwiejszą pracę z datami. Finalnie niczego nie znalazłem i zostałem zmuszony napisać własny moduł.
+                </p>
+            </p>
+        </article>
+
+
+        <article class="border mt-5 mb-5 p-3 rounded d-flex flex-column align-items-center">
             <h2 class="mb-4" id="tempest2024">TEMPEST 2024</h2>
 
             <br>
 
-            <div class="w-100 p-4 d-flex justify-content-between bg-dark-subtle rounded">
-                <img class="w-25 border border-black" src="./img/tempest-win.png" alt="Zrzut ekranu z projektu TEMPEST 2024">
-                <img class="w-25 border border-black" src="./img/tempest-gameplay.png" alt="Zrzut ekranu z projektu TEMPEST 2024">
-                <img class="w-25 border border-black" src="./img/tempest-death.png" alt="Zrzut ekranu z projektu TEMPEST 2024">
+            <div class="w-100 p-2 d-flex justify-content-between bg-dark-subtle rounded">
+                <img class="w-25 border border-black" src="./img/tempest/tempest-win.png" alt="Zrzut ekranu z projektu TEMPEST 2024">
+                <img class="w-25 border border-black" src="./img/tempest/tempest-gameplay.png" alt="Zrzut ekranu z projektu TEMPEST 2024">
+                <img class="w-25 border border-black" src="./img/tempest/tempest-death.png" alt="Zrzut ekranu z projektu TEMPEST 2024">
             </div>
 
-            <a href="https://github.com/lemoland5/RAYPONG" class="mt-4 text-reset">
+            <a href="https://github.com/lemoland5/RAYPONG" target="_blank" class="mt-4 text-reset">
                 <b class="fab fa-github">GitHub</b>
             </a>
 
-            <p></p>
+            <p class="mt-4">
+                <p>
+                    Podczas tworzenia projektu na Motorola Science Cup mój zespół dostał za zadania rekreację gry Tempest z katalogu Atari 2600.
+                </p>
+                <p>
+                    Celem w Tempest jest strzelanie do wrogich statków kosmicznych poruszając się po jednowymiarowej szynie. Na poziomie technicznym gra jest bardzo prosta, większym wyzwaniem było napisanie silnika graficznego.
+                </p>
+                <p>
+                    Gra musiała używać grafiki wektorowej. Jednak zamiast używać istniejącej biblioteki do obróbki plików svg takiej jak NanoSVG postanowiliśmy stworzyć własny format.
+                </p>
+                <p>
+                    Oprócz matematyki związanej z przekształcaniem grafiki wektorowej nauczyliśmy się też dużo z zakresu samej biblioteki SDL. Jest bardzo wygodna w użyciu, a z dodatkowym modułami pozwala na bardziej zaawansowane funkcjonalności takie jak renderowanie tekstu czy odtwarzanie dźwięku.
+                </p>
+                <p>
+                    <i>Szkoda tylko, że jej użycie nie było dozwolone.</i>
+                </p>
+            
+            </p>
         </article>
     </main>
 
@@ -67,26 +232,20 @@
             </div>
         
             <div>
-            <a href="" class="me-4 text-reset">
+            <a href="https://www.facebook.com/smyczyk.przemyslaw/" class="me-4 text-reset">
                 <b class="fab fa-facebook-f">FB</b>
             </a>
-            <a href="" class="me-4 text-reset">
-                <b class="fab fa-twitter">X</b>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <b class="fab fa-linkedin">LN</b>
-            </a>
-            <a href="" class="me-4 text-reset">
+            <a href="https://github.com/lemoland5" class="me-4 text-reset">
                 <b class="fab fa-github">GITHUB</b>
             </a>
-            <a href="" class="me-4 text-reset">
+            <a href="https://www.youtube.com/channel/UCj6zXqYNoz0hQ29NDDCYSiQ" class="me-4 text-reset">
                 <b class="fab fa-youtube">YT</b>
             </a>
             </div>
         </section>
   
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2024 Copyright: Przemysław Smyczyk @ ZSTI
+        &copy; 2024 Copyright: Przemysław Smyczyk @ ZSTI
         </div>
     </footer>
 

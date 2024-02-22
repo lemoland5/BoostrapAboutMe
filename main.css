@@ -3,10 +3,27 @@ textarea{
     height: 20vh;
 }
 
+.w-40{
+    width: 40%;
+}
+
 .__inputname{
     width: 45%;
 }
 
 .__formcenter{
     align-self: center;
+}
+
+.__videoIframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+#mainNav{
+    border: 2px solid #ccc;
+}
+
+.card > img{
+    border-radius: 3%;
 }
